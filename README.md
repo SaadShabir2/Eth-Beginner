@@ -66,8 +66,8 @@ burn(address Address, uint256 value): Burns tokens by deducting the specified va
 
 # Authors
 
-Ayush Kathayat
-hosiyars281@gmail.com
+Saad Shabir
+Saad.shabir.12i@gmail.com
 
 # License
 This project is licensed under the MIT License. See the [LICENSE.md](https://license.md/) file. file for details.
