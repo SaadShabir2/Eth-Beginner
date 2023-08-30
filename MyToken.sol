@@ -18,9 +18,9 @@ pragma solidity 0.8.18;
 contract MyToken {
     // public variables here
 
-    string public Token_name = "LITCOIN"; // a string variable to store my token_name
-    string public Token_abbrv = "LTC"; //  another string variable to store my token_abbrv
-    uint256 public Total_supply = 0; // and unint varibale which usigned int
+    string public Token_name = "LITCOIN";
+    string public Token_abbrv = "LTC";
+    uint256 public Total_supply = 0;
 
     // mapping variable here
 
@@ -29,8 +29,8 @@ contract MyToken {
     // mint function
 
     function mint(address Address, uint256 value) public payable  {
-        Total_supply += value; // adding the value of the variable value to the my Total Supply
-        Tot_amount[Address] += value; // and accessing the value through the given address and using it to add the value of the total value
+        Total_supply += value;
+        Tot_amount[Address] += value;
     }
 
     // burn function
