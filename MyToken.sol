@@ -36,11 +36,10 @@ contract MyToken {
     // burn function
 
     function burn(address Address, uint256 value) public payable {
-        // the balance or the total amount of the sender should be greater than or equal to the amount that is supposed to be burned.
 
         if (Tot_amount[Address] >= value) {
-            Total_supply -= value; // deducting the value of the variable value to the my Total Supply
-            Tot_amount[Address] -= value; // and accessing the value through the given address and using it to subtracting the value of the total value
+            Total_supply -= value;
+            Tot_amount[Address] -= value;
         }
     }
 }
